@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 300 100"
+  width="300"
+  height="100"
+  fill="none"
+>
+  <!-- Fundo transparente -->
+  <rect width="300" height="100" fill="transparent" />
+
+  <!-- Símbolo do "6" estilizado -->
+  <path
+    d="M200,50c0,20-15,30-30,30s-30-10-30-30,15-30,30-30S200,30,200,50Z"
+    fill="#1A202C"
+  />
+  <circle cx="170" cy="50" r="10" fill="#FFFFFF" />
+
+  <!-- Nome estilizado -->
+  <text
+    x="10"
+    y="65"
+    font-family="Arial, sans-serif"
+    font-size="60"
+    font-weight="bold"
+    fill="#1A202C"
+    letter-spacing="2"
+  >
+    Sloy
+  </text>
+</svg>
