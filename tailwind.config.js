@@ -19,7 +19,11 @@ export default {
         '9/10': '90vh',
         
         
-      }
+      },
+      rotate: {
+        '135': '135deg',
+        '225': '225deg',
+      },
     },
   },
   plugins: [],

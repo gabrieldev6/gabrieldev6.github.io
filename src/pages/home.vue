@@ -37,10 +37,7 @@ let show = ref(false);
             </div>
             
 
-              <!-- <button id="theme-toggle" 
-                class="px-2 py-2 shadow-md rounded-md dark:shadow-md dark:shadow-gray-800 dark:text-gray-300">
-                <font-awesome-icon icon="fa-solid fa-sun" />
-              </button> -->
+              
             
           </div>
           <div><button @click="show = !show" class="px-4 py-2 rounded-md shadow-md dark:shadow-md dark:shadow-gray-800 dark:text-gray-300">
@@ -59,10 +56,10 @@ let show = ref(false);
           <img :src="dev" alt="" class="rounded-full w-64 h-64 border-2 shadow-md dark:shadow-md dark:shadow-gray-800 dark:border-gray-800">
         </li>
         <li class="w-full flex flex-col items-center pt-5">
-          <p class="text-4xl ">Hey, I'm Gabriel Silva</p>
+          <p class="text-4xl ">Hey, I'm Gabriel Pimentel</p>
         </li>
         <li class="w-full flex flex-col items-center ">
-          <p class="text-4xl">but you can call me <a href="">sloy6</a></p>
+          <p class="text-4xl">but you can call me <a href="">gabrieldev6</a></p>
         </li>
         <li class="w-full flex justify-center text-center pt-5 text-2xl">
           <p>I'm a front-end web developer, UX/UI designer <br>& back-end developer</p>
@@ -82,10 +79,15 @@ let show = ref(false);
         <div v-if="show" class="outer px-2 h-full w-4/5 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-sm">  
           <div class="inner pt-10 pl-2 dark:text-gray-300">
             <ul>
-              <li><button><p class="font-bold text-3xl pt-2">Home</p></button></li>
-              <li><button><p class="font-bold text-3xl pt-2">Projects</p></button></li>
-              <li><button><p class="font-bold text-3xl pt-2">About</p></button></li>
-              <li><button><p class="font-bold text-3xl hover:text-3xl pt-2">Contact</p></button></li>
+              <li><button class="flex items-baseline"><p>01</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Home</p></button></li>
+              <li><button class="flex items-baseline"><p>02</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Projects</p></button></li>
+              <li><button class="flex items-baseline"><p>03</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">About</p></button></li>
+              <li><button class="flex items-baseline"><p>04</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Contact</p></button></li>
+              <li class="pt-5">
+                <a href="https://github.com/gabrieldev6"><button class="hover-line-button ml-4 mr-5 font-bold flex items-center color-black dark:color-white"> <font-awesome-icon icon="fa-solid fa-arrow-left" class="pr-2 rotate-135"/>Github</button></a>
+                <a href="https://linkedin.com/in/gabriel-pimentel-0257291a4"><button class="hover-line-button font-bold flex items-center color-black dark:color-white"> <font-awesome-icon icon="fa-solid fa-arrow-left" class="pr-2 rotate-135"/>Linkedin</button></a>
+          
+              </li>
             </ul>
           </div>
         </div>
