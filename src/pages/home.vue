@@ -55,10 +55,10 @@ let show = ref(false);
         <li class="w-full flex flex-col items-center">
           <img :src="dev" alt="" class="rounded-full w-64 h-64 border-2 shadow-md dark:shadow-md dark:shadow-gray-800 dark:border-gray-800">
         </li>
-        <li class="w-full flex flex-col items-center pt-5">
+        <li class="w-full flex flex-col items-center text-center pt-5">
           <p class="text-4xl ">Hey, I'm Gabriel Pimentel</p>
         </li>
-        <li class="w-full flex flex-col items-center ">
+        <li class="w-full flex flex-col items-center text-center">
           <p class="text-4xl">but you can call me <a href="">gabrieldev6</a></p>
         </li>
         <li class="w-full flex justify-center text-center pt-5 text-2xl">
@@ -76,7 +76,7 @@ let show = ref(false);
 
       
       <Transition :duration="550" name="nested">
-        <div v-if="show" class="outer px-2 h-full w-4/5 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-sm">  
+        <div v-if="show" class="outer px-2 h-full w-4/5 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-sm ">
           <div class="inner pt-10 pl-2 dark:text-gray-300">
             <ul>
               <li><button class="flex items-baseline"><p>01</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Home</p></button></li>
