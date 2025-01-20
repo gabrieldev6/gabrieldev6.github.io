@@ -24,6 +24,9 @@ export default {
         '135': '135deg',
         '225': '225deg',
       },
+      screen: {
+        'phone': '380px'
+      }
     },
   },
   plugins: [],

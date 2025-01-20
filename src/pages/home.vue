@@ -23,7 +23,7 @@ let show = ref(false);
     <div class="dark:bg-black w-full h-1/10 bg-blue-500 text-white dark:text-gray-300 flex items-center z-1000">
       <ul class="w-full flex justify-between items-center px-10">
         <li>
-            <font-awesome-icon icon="fa-solid fa-code" class="w-12 h-12" />
+            <font-awesome-icon icon="fa-solid fa-code" class="sm:w-12 w-8 sm:h-12 h-8" />
         </li>
         <li class="flex items-center">
           <div id="app" class="px-2 py-2 ">
