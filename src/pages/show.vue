@@ -16,23 +16,23 @@ library.add(fas);
           
           <img :src="dev" alt="" class="rounded-full w-64 h-64 border-2 shadow-md dark:shadow-md dark:shadow-gray-800 dark:border-gray-800">
         </li>
-        <li class="w-full flex flex-col items-center text-center pt-5">
-          <p class="text-4xl ">Hey, I'm Gabriel Pimentel</p>
+        <li class="w-full flex flex-col items-center text-center pt-5 px-4">
+          <p class="text-2xl sm:text-4xl ">Hey, I'm Gabriel Pimentel</p>
         </li>
-        <li class="w-full flex flex-col items-center text-center">
-          <p class="text-4xl">but you can call me <a href="">gabrieldev6</a></p>
+        <li class="w-full flex flex-col items-center text-center px-4">
+          <p class="text-2xl sm:text-4xl">but you can call me <a href="">gabrieldev6</a></p>
         </li>
-        <li class="w-full flex justify-center text-center pt-5 text-2xl">
+        <li class="w-full flex justify-center text-center pt-5 text-xl sm:text-2xl px-4">
           <p>I'm a front-end web developer, UX/UI designer <br>& back-end developer</p>
         </li>
         <li class="w-full flex justify-around pt-5 ">
           <div class="flex w-1/2 max-w-96 justify-around">
             
-            <button class="hover-line-button font-bold flex items-center color-black dark:color-white"> 
-              <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/> See my projects
+            <button class="hover-line-button font-bold flex items-center color-black  dark:color-white text-xs"> 
+              <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/>See my projects
             </button>
             
-            <button class="hover-line-button font-bold flex items-center color-black dark:color-white">
+            <button class="hover-line-button font-bold flex items-center color-black dark:color-white text-xs">
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/> More about me
             </button>
           
