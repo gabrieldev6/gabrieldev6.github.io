@@ -11,11 +11,11 @@ library.add(fas);
 </script>
 <template>
     <div class="w-full h-full flex flex-col sm:max-w-4xl md:flex-row justify-center items-center ">
-        <ul class="w-4/5 sm:pl-5 sm:w-3/5 sm:h-1/2 order-2 sm:order-1">
+        <ul class="w-8/12 sm:pl-5 sm:w-3/5 sm:h-1/2 order-2 sm:order-1">
             <li><h5 class="text-2xl font-bold">About</h5></li>
             <li><hr class="w-4/5 h-0.5 bg-black dark:bg-white rounded-lg"></li>
             <li>
-                <div class="w-full text-sm phone:text-lg">
+                <div class="w-full text-sm sm:text-lg">
                     <p> Hey, my name is Gabriel Silva and I use gabrieldev6 as my nickname across social medias.
                     I’m a graphic designer, UX/UI designer & front-end web developer from Brazil. 
                     I’m also passionate about pop music and make portraits and universes around
@@ -27,14 +27,14 @@ library.add(fas);
             </li>
             <li>
 
-                <button class="hover-line-button font-bold flex items-center color-black dark:color-white pt-4">
+                <button class="hover-line-button font-bold flex items-center color-black dark:color-white pt-1 sm:pt-4 ">
                     <font-awesome-icon icon="fa-solid fa-arrow-right" class="rotate-90"/> Resume
                 </button>
             </li>
 
         </ul>
         <div class="order-1 sm:order-2 w-full flex justify-center">
-            <img :src="dev2" class="rounded-xl w-10/12 sm:max-w-96"/>
+            <img :src="dev2" class="rounded-xl w-8/12 sm:max-w-96"/>
         </div>
     </div>
 </template>
