@@ -3,9 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
-// import logo from './assets/logo.svg'
-import dev from '../assets/dev.jpeg'
-
 import { ref } from 'vue'
 import { useDark } from '@vueuse/core'
 
@@ -48,40 +45,48 @@ let show = ref(false);
       </ul>
 
     </div>
-
+    
     <!-- painel -->
     <div class="h-9/10 w-full text-black flex justify-center items-center dark:text-gray-300">
-      <ul class="w-full h-full flex flex-col justify-center">
-        <li class="w-full flex flex-col items-center">
-          <img :src="dev" alt="" class="rounded-full w-64 h-64 border-2 shadow-md dark:shadow-md dark:shadow-gray-800 dark:border-gray-800">
-        </li>
-        <li class="w-full flex flex-col items-center text-center pt-5">
-          <p class="text-4xl ">Hey, I'm Gabriel Pimentel</p>
-        </li>
-        <li class="w-full flex flex-col items-center text-center">
-          <p class="text-4xl">but you can call me <a href="">gabrieldev6</a></p>
-        </li>
-        <li class="w-full flex justify-center text-center pt-5 text-2xl">
-          <p>I'm a front-end web developer, UX/UI designer <br>& back-end developer</p>
-        </li>
-        <li class="w-full flex justify-around pt-5 ">
-          <div class="flex w-1/2 max-w-96 justify-around">
-            <button class="hover-line-button font-bold flex items-center color-black dark:color-white"> <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/> See my projects</button>
-          <button class="hover-line-button font-bold flex items-center color-black dark:color-white"> <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/> More about me</button>
+      
+        
+        <RouterView class="flex"/>
           
-          </div>
+        
           
-        </li>
-      </ul>
+        
+
+          
+       
+      
+      
 
       
       <Transition :duration="550" name="nested">
-        <div v-if="show" class="outer px-2 h-full w-4/5 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-sm ">
+        <div v-if="show" class="outer px-2 h-full w-5/6 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-lg ">
           <div class="inner pt-10 pl-2 dark:text-gray-300">
             <ul>
-              <li><button class="flex items-baseline"><p>01</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Home</p></button></li>
-              <li><button class="flex items-baseline"><p>02</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Projects</p></button></li>
-              <li><button class="flex items-baseline"><p>03</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">About</p></button></li>
+              <li>
+                <router-link :to="{ name: 'Show'}">
+                <button class="flex items-baseline"><p>01</p>
+                  <p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Home</p>
+                </button>
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'Projects'}">
+                <button class="flex items-baseline"><p>02</p>
+                  <p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Projects</p>
+                </button>
+                </router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'About'}">
+                <button class="flex items-baseline"><p>03</p>
+                  <p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">About</p>
+                </button>
+              </router-link>
+              </li>
               <li><button class="flex items-baseline"><p>04</p><p class="font-bold text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 pt-2 pl-1">Contact</p></button></li>
               <li class="pt-5">
                 <a href="https://github.com/gabrieldev6"><button class="hover-line-button ml-4 mr-5 font-bold flex items-center color-black dark:color-white"> <font-awesome-icon icon="fa-solid fa-arrow-left" class="pr-2 rotate-135"/>Github</button></a>
