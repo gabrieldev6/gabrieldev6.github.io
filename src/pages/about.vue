@@ -27,7 +27,7 @@ library.add(fas);
             </li>
             <li>
 
-                <button class="hover-line-button font-bold flex items-center color-black dark:color-white pt-1 sm:pt-4 ">
+                <button class="hover-line-button font-bold flex items-center color-black dark:color-white text-xs pt-1  sm:pt-4">
                     <font-awesome-icon icon="fa-solid fa-arrow-right" class="rotate-90"/> Resume
                 </button>
             </li>

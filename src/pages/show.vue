@@ -26,13 +26,13 @@ library.add(fas);
           <p>I'm a front-end web developer, UX/UI designer <br>& back-end developer</p>
         </li>
         <li class="w-full flex justify-around pt-5 ">
-          <div class="flex w-1/2 max-w-96 justify-around">
+          <div class="flex w-4/5 max-w-96 justify-around">
             
-            <button class="hover-line-button font-bold flex items-center color-black  dark:color-white text-xs"> 
+            <button class="hover-line-button font-bold flex items-center color-black  dark:color-white text-sm"> 
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/>See my projects
             </button>
             
-            <button class="hover-line-button font-bold flex items-center color-black dark:color-white text-xs">
+            <button class="hover-line-button font-bold flex items-center color-black dark:color-white text-sm">
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-2"/> More about me
             </button>
           
