@@ -16,20 +16,26 @@ library.add(fas);
             <li><hr class="w-4/5 h-0.5 bg-black dark:bg-white rounded-lg"></li>
             <li>
                 <div class="w-full text-sm sm:text-lg">
-                    <p> Hey, my name is Gabriel Silva and I use gabrieldev6 as my nickname across social medias.
-                    I’m a graphic designer, UX/UI designer & front-end web developer from Brazil. 
-                    I’m also passionate about pop music and make portraits and universes around
-                    what I listen to and I’m always curious to learn more when it comes to new technologies 
-                    and creative coding.
+                    <p> Graduated in Computer Science from the Federal Institute
+                      of Education, Science and Technology of Ceará (IFCE), Aracati 
+                      Campus. I have worked on Research and Development projects in 
+                      the areas of Embedded Systems and Web Development, acquiring 
+                      experience in back-end with Node.js and TypeScript, in addition
+                      to working with Neural Networks using YOLOv7 and TensorFlow.js.
+                      Throughout the course, I also participated in events and training 
+                      competitions, standing out by winning the second place in the Startup 
+                      Challenge promoted by Sebrae and the first place in the Idea Twinning 
+                      Program (PGINI).
                     </p>
 
                 </div>
             </li>
             <li>
-
+                <a href="https://drive.google.com/file/d/1ex_3Cs3rq9L-8xrMBGjtzac2dOEBHjaM/view?usp=sharing">
                 <button class="hover-line-button font-bold flex items-center color-black dark:color-white text-xs pt-1  sm:pt-4">
                     <font-awesome-icon icon="fa-solid fa-arrow-right" class="rotate-90"/> Resume
                 </button>
+                </a>
             </li>
 
         </ul>
