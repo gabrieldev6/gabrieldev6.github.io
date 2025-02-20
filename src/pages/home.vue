@@ -50,7 +50,7 @@ let show = ref(false);
     <div class="h-9/10 w-full text-black flex justify-center items-center dark:text-gray-300">
       
         
-        <RouterView class="flex"/>
+        <RouterView class="flex h-full w-full"/>
           
         
           
