@@ -64,7 +64,7 @@ let show = ref(false);
       
       <Transition :duration="550" name="nested">
         <div v-if="show" class="outer px-2 h-full w-5/6 top-36 fixed rounded-t-lg shadow-lg dark:shadow-md dark:shadow-gray-700 backdrop-blur-lg ">
-          <div class="inner pt-10 pl-2 dark:text-gray-300">
+          <div class="inner h-full pt-10 pl-2 dark:text-gray-300">
             <ul>
               <li>
                 <router-link :to="{ name: 'Show'}">
